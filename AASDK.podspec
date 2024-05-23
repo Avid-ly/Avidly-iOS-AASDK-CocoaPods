@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AASDK'
-  s.version          = '2.0.0.8'
-  s.summary          = 'AASDK 2.0.0.8'
+  s.version          = '2.0.0.9'
+  s.summary          = 'AASDK 2.0.0.9'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK 2.0.0.8
+AccountSDK 2.0.0.9
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
@@ -33,7 +33,7 @@ AccountSDK 2.0.0.8
   }
 
   s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit'
+  facebook.dependency 'FBSDKLoginKit', '>=17.0.0'
   end
 
   s.swift_version = '5.0'
